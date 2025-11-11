@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/logo_dark.ico" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/x-icon" href="/logo.ico" media="(prefers-color-scheme: light)">
+    <meta property="og:url" content="https://qpi.kro.kr/">
+    <meta property="og:title" content="무한상상">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/logo.png">
+    <meta property="og:description" content=무한상상">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/colors.css">
+    <link rel="stylesheet" href="/newstyle.css">
+    <style>
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/404.png');
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+    <script src="/nav.js" defer></script>
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav class="nav">
+            <a href="/" class="nav-logo">ICL</a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">홈</a>
+                <a href="/search" class="nav-link">위치 검색</a>
+                <a href="/howto" class="nav-link">기기 사용법</a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-eyebrow typography-caption2 en">오류</div>
+                <h1 class="hero-headline typography-title1">404 Not Found</h1>
+                <p class="hero-subheadline typography-subheadline">
+                    <a style="color: var(--c-ltext);">찾을 수 없는 페이지입니다.</a>
+                </p>
+                <div class="hero-cta">
+                    <a href="/" class="hero-link typography-body">홈으로</a>
+                    <a href="/search/" class="hero-link typography-body">위치 검색</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
