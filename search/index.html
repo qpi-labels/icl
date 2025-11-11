@@ -475,7 +475,7 @@
         </div>
 
         <div id="locationButtonsContainer" class="location-buttons-container">
-            <h3 class="location-buttons-title">위치별로 찾아보기</h3>
+            <h3 class="location-buttons-title">구역별로 찾아보기</h3>
             <div id="locationButtonsGrid" class="location-buttons-grid"></div>
         </div>
         
@@ -542,7 +542,7 @@
             { name: '고무망치', location: 'B-3', category: '공구', description: '고무망치입니다.' },
             { name: '줄', location: 'B-3', category: '공구', description: '금속과 목재를 다듬을 때 쓰는 공구' },
             { name: '과학상자', location: 'D-1', category: '공구', description: '과거의 영광을 뒤로 하고 공구함에 봉인된 어린 과학자의 꿈' },
-            { name: '공구 세트', location: 'D-1', category: '공구', description: '손때 묻은 시간의 무게를 짊어진 낡은 공구들' },
+            { name: '공구 세트', location: 'D-1', category: '공구', description: '손때 묻은 시간의 무게를 짊어진 낡은 공구들 },
             { name: '필라멘트', location: 'D-2', category: '3D 프린팅', description: 'PLA 필라멘트가 있습니다. 뜯긴 필라멘트부터 사용하고 칩을 잘 보관하세요.' },
             { name: '카트리지', location: 'D-2', category: '3D 프린팅', description: '필라멘트 카트리지입니다.' },
             { name: '익스트루더', location: 'D-2', category: '3D 프린팅', description: '3D프린터 익스트루더' },
@@ -622,7 +622,7 @@
             searchInput.value = '';
             currentSearchTerm = '';
             suggestionsContainer.classList.remove('show');
-            displayResults(results, `${location} 위치의 장비`);
+            displayResults(results, `${location} 구역의 물건`);
             
             // 결과로 스크롤
             resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
