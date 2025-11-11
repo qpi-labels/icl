@@ -25,7 +25,7 @@
             background: linear-gradient(150deg, #10004C 0%, #5F6584 100%);
         }
         .grid-item.accent-1 {
-            background-image: url('project/qiss.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/a1.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -33,10 +33,21 @@
         }
 
         .grid-item.accent-2 {
-            background-image: url('project/design.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/a2.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            color: var(--c-ltext);
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/index.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        .grid-item.large {
+            grid-column: span 2;
+            min-height: 300px;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/main.jpg');
             color: var(--c-ltext);
         }
     </style>
@@ -58,9 +69,9 @@
         <!-- 영웅 부분 -->
         <section class="hero">
             <div class="hero-content">
-                <div class="hero-eyebrow typography-caption2 en">IDEA CREATORS</div>
+                <img src="inf.png" alt="무한상상" class="hero-eyebrow typography-caption2 en" style="width: 5vh;">
                 <h1 class="hero-headline typography-title1">무한상상</h1>
-                <p class="hero-subheadline typography-subheadline">여러분의 무한한 상상력을 응원합니다.</p>
+                <p class="hero-subheadline typography-subheadline">IDEA CREATORS</p>
                 <div class="hero-cta">
                     <a href="/search/" class="hero-link typography-body">위치 검색</a>
                     <a href="/howto/" class="hero-link typography-body">기기 사용법</a>
@@ -73,11 +84,10 @@
             <div class="grid-container">
                 <div class="grid">
                     <div class="grid-item large">
-                        <div class="item-eyebrow typography-caption2 en">쿼터파이</div>
-                        <h2 class="item-headline typography-headline">충남과학고 웹 개발 동아리</h2>
+                        <div class="item-eyebrow typography-caption2 en">무한상상</div>
+                        <h2 class="item-headline typography-headline">메이커 동아리</h2>
                         <p class="item-description typography-caption1">
-                            쿼터파이는 창의적이고 혁신적인 웹 개발 작업을 통해
-                            학생들의 기술적 성장과 협업 능력을 키우는 동아리입니다.
+                            무한상상은 충남과학고등학교의 메이커 동아리입니다.
                         </p>
                         <div class="item-cta">
                             <a href="#" class="cta-link typography-caption1">더 알아보기 →</a>
@@ -87,10 +97,10 @@
 
                 <div class="grid">
                     <div class="grid-item accent-1">
-                        <div class="item-eyebrow typography-caption2 en">작업들</div>
-                        <h2 class="item-headline typography-headline">다양한 작업</h2>
+                        <div class="item-eyebrow typography-caption2 en">지원</div>
+                        <h2 class="item-headline typography-headline">위치 검색</h2>
                         <p class="item-description typography-caption1">
-                            다양한 기술 모음을 활용한 작업들을 만나보세요.
+                            무한상상실의 공구, 기기, 소모품 등의 위치를 찾아보세요.
                         </p>
                         <div class="item-cta">
                             <a href="/project/" class="cta-link typography-caption1">자세히 알아보기 →</a>
@@ -98,10 +108,10 @@
                     </div>
 
                     <div class="grid-item accent-2">
-                        <div class="item-eyebrow typography-caption2 en">설계</div>
-                        <h2 class="item-headline typography-headline">설계</h2>
+                        <div class="item-eyebrow typography-caption2 en">지원</div>
+                        <h2 class="item-headline typography-headline">기기 사용법</h2>
                         <p class="item-description typography-caption1">
-                            아름다고 편안한 사용자 경험을 위한 쿼터파이만의<br>설계를 확인하세요.
+                            무한상상실의 기기 사용법을 알아보세요.
                         </p>
                         <div class="item-cta">
                             <a href="/design/" class="cta-link typography-caption1">자세히 알아보기 →</a>
@@ -114,10 +124,9 @@
         <!-- 부분에 관하여 -->
         <section class="about-section">
             <div class="about-container">
-                <h2 class="about-headline typography-title3 fade-up">함께 만들어가는 미래</h2>
+                <h2 class="about-headline typography-title3 fade-up"></h2>
                 <p class="about-description typography-body fade-up delay-1">
-                    쿼터파이는 기술을 통해 세상을 더 나은 곳으로 만들고자 하는 <br>
-                    열정적인 학생들이 모인 공동체입니다.
+                    여러분의 무한한 상상력을 응원합니다.
                 </p>
             </div>
         </section>
