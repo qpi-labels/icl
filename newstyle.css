@@ -37,7 +37,7 @@ main {
 
 /* English text */
 .en {
-    font-family: "BR Cobane", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "BR Cobane", "ArittaDodum", -apple-system, BlinkMacSystemFont, sans-serif;
     letter-spacing: -.025em;
 }
 
@@ -139,6 +139,7 @@ main {
 
 /* Navigation */
 .nav-wrapper {
+    font-family: "ArittaDodum";
     background: rgb(from var(--c-bg) r g b / 80%);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -169,7 +170,7 @@ main {
 }
 
 .nav-logo.en {
-    font-family: "BR Cobane", sans-serif;
+    font-family: "BR Cobane", "ArittaDodum", sans-serif;
 }
 
 .nav-links {
@@ -574,7 +575,7 @@ main {
 }
 
 .color-name {
-    font-family: "BR Cobane", sans-serif;
+    font-family: "BR Cobane", "ArittaDodum", sans-serif;
     font-size: 17px;
     font-weight: 600;
     text-align: left;
